@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
+
+* {
+  font-family: 'Oxygen', sans-serif;
+}
+
+html, body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+}
+
+aside {
+  position: fixed;
+  text-align: center;
+  width: 350px;
+  height: 100%;
+  background-color: #83A8B2;
+  color: #EEFBFF;
+  right: 0;
+}
+
+aside .image-container {
+  display: inline-block;
+  margin-top: 3em;
+}
+
+#pic-kubbi {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+#pic-kubbi img {
+  width: 140px;
+  height: 140px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: block;
+}
+
+nav ul li a {
+  display: block;
+  color: #EEFBFF;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  padding: 1.6em 0;
+  border-bottom: solid 2px #96b8c2;
+}
+
+nav ul li .selected {
+  color: #83A8B2;
+  background: #EEFBFF;
+}
