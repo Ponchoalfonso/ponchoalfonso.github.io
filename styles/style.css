@@ -8,6 +8,7 @@ html, body {
   display: flex;
   flex-flow: column;
   min-height: 100%;
+  background-color: #EEFBFF;
 }
 
 aside {
@@ -18,6 +19,22 @@ aside {
   background-color: #83A8B2;
   color: #EEFBFF;
   right: 0;
+}
+
+section, footer, .wrapper {
+  margin-right: 350px;
+}
+
+section, footer {
+  padding: 1em;
+}
+
+aside .profile {
+  margin-bottom: 2em;
+}
+
+aside .profile p {
+  font-weight: lighter;
 }
 
 aside .image-container {
@@ -56,4 +73,46 @@ nav ul li a {
 nav ul li .selected {
   color: #83A8B2;
   background: #EEFBFF;
+}
+
+.image-only {
+  height: 50vh;
+  background-image: url('../images/img_01_landscape.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
+  padding: 0.4em 0;
+  margin: 0;
+}
+
+.divider, .shortdivider {
+  width: 100%;
+  height: 4px;
+  background-color: #D5F6FF;
+  margin: 1em 0;
+}
+
+.shortdivider {
+  width: 94%;
+  margin-left: 3%;
+  border-radius: 10px;
+}
+
+.big-title {
+  font-size: 3em;
+  color: #83A8B2;
+}
+
+.normal-title {
+  font-size: 2em;
+  color: #96b8c2;
+}
+
+.small-title {
+  font-size: 1.4em;
+  color: #96b8c2;
 }
